@@ -1,0 +1,17 @@
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 43%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: $color-black;
+  }
+  to {
+    border-color: transparent;
+  }
+}

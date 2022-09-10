@@ -1,0 +1,57 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+
+  height: 100vh;
+  background-image: linear-gradient(to right bottom,
+     rgba($color-primary, 0.8),
+     rgba($color-primary-light, 0.8)),
+    url(../img/pestenegra.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.section {
+  margin: 40px;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-around;
+}
+
+//introducao
+.header1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.menu {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 400;
+  font-size: 15px;
+  transition: transform 100ms linear;
+  text-decoration: none;
+  color: $color-primary-dark;
+  padding-bottom: 10px;
+
+  &:hover {
+    transform: scale(1.08);
+    border-bottom: 3px solid $color-primary;
+    color: $color-primary;
+  }
+}
+
+
+
