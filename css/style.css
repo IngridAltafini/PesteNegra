@@ -94,9 +94,69 @@
     font-size: 28px;
     color: #000; }
 
+.sintomas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+  .sintomas--1 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #202020; }
+  .sintomas--2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #000; }
+  .sintomas--3 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000; }
+
+.tratamento {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; }
+  .tratamento--1 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #202020; }
+  .tratamento--2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #000; }
+  .tratamento--3 {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #202020; }
+  .tratamento--4 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #000; }
+
 .imagem {
   width: 550px;
   margin-top: auto; }
+
+.imagem3 {
+  width: 250px;
+  margin-top: auto; }
+
+.imagem4 {
+  width: 500px;
+  margin-top: auto;
+  padding-left: 50px; }
 
 .rodapé {
   padding: 5px;
@@ -194,10 +254,3 @@ body {
     transform: scale(1.08);
     border-bottom: 3px solid #696969;
     color: #696969; }
-
-.header1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 24px; }
